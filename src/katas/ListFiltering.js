@@ -1,17 +1,15 @@
-//LIST FILTERING
+let arr = [1, 2, 'a']
 
-// let arr = [1, 2, 'a']
+function filter_list(arr){
+    const newList = []
+    arr.map( item => {
+        if (typeof item === 'number'){
+            newList.push(item)
+        }
+    })
+    return newList
+}
 
-// function filter_list(arr){
-//     const newList = []
-//     arr.map( item => {
-//         if (typeof item === 'number'){
-//             newList.push(item)
-//         }
-//     })
-//     return newList
-// }
-
-// filter_list(arr)
+filter_list(arr)
 
 

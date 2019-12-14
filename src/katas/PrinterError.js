@@ -6,17 +6,12 @@ function printerError(input) {
     let error = 0
     input.split('')
     for (let i = 0; i < input.length; i++){
-        // console.log(input[i])
-        // console.log(input.charCodeAt(i))
         if (input.charCodeAt(i) <= 109 ){
             correct++
         } else {
             error++
         }
     }
-    // console.log(correct)
-    // console.log(error)
-    // console.log(`${error}/${correct}`)
     return `${error}/${correct+error}`
 }
 

@@ -1,4 +1,3 @@
-//SORT BY LAST CHAR
 let str = 'what time are we climbing up the volcano'
 
 function last(x){
